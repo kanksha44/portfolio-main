@@ -30,7 +30,7 @@
 .about .btn--outline {
   margin-right: 1em;
 }
-.btnResume{
+.btnResume {
   color: var(--clr-primary);
   border: 2px solid var(--clr-primary);
   border-radius: 5px;
@@ -39,13 +39,13 @@
   padding: 0px 30px;
   margin-top: 10px;
 }
-.btnResume:hover{
+.btnResume:hover {
   background-color: var(--clr-primary);
   color: var(--clr-bg);
 }
 
 @media (max-width: 600px) {
-  .mobileHead{
+  .mobileHead {
     align-content: center;
   }
   .app .about {
@@ -56,5 +56,8 @@
   }
   .about > :nth-child(2) {
     font-size: 1.5rem;
+  }
+  .about-box {
+    padding: 0 3px;
   }
 }

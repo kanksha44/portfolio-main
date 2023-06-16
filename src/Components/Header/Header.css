@@ -6,13 +6,14 @@
   justify-content: space-between;
 }
 
+
 @media (max-width: 600px) {
   .header {
     height: 6em;
   }
 }
 
-img{
-  width: 30px;
+img {
+  width: 2rem;
   margin-right: 4px;
 }

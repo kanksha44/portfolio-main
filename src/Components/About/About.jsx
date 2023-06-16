@@ -15,11 +15,11 @@ import { Techstacks } from "./Techstacks";
 export const About = () => {
   return (
     <>
-      <div className="about center">
+      <div className="about center about-box">
         <h1 data-aos="fade-right" className="mobileHead">
           Hello, I am <span className="about__name">Aakanksha Gaikwad</span>
         </h1>
-        <Type />
+        <Type sx={{ colour: "#80CBC4 !important" }} />
         <p className="about__desc" data-aos="fade-right">
           {/* Passionate and creative Front-End Developer. Attired with a variety of tools & technologies and keen to
           learn new one. */}
@@ -66,15 +66,6 @@ export const About = () => {
           >
             <LinkedInIcon />
           </a>
-          {/* <a
-            href="https://twitter.com/Abhijeet0296"
-            aria-label="twitter"
-            className="link link--icon"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <TwitterIcon />
-          </a> */}
         </div>
 
         <button
