@@ -15,10 +15,17 @@ import {
   SiMongodb,
   SiNodedotjs,
   SiFastapi,
+  SiRedux,
 } from "react-icons/si";
 import { DiCss3 } from "react-icons/di";
 import { VscJson } from "react-icons/vsc";
 import { IoLogoJavascript } from "react-icons/io";
+import netflicproj from "../../assets/netflicproj.png";
+import kanbanproj from "../../assets/kanbanproj.png";
+import movieproject from "../../assets/movieproject.png";
+import twitterproj from "../../assets/twitterproj.png";
+import googledocproj from "../../assets/googledocproj.png";
+
 export const Projects = () => {
   return (
     <>
@@ -29,33 +36,27 @@ export const Projects = () => {
             <div className="project">
               <div className="project_videocontainer">
                 <div>
-                  <img
-                    src="https://github.com/Abhi-lab2/mytheresa.com/raw/ScreenShots/Homepage.png?raw=true"
-                    alt="Netflix clone"
-                  />
+                  <img src={netflicproj} alt="Netflix clone" />
                 </div>
               </div>
               <div className="project_information">
                 <h2>Inspired by Netflix</h2>
                 <p>
-                  Play Your Favourite Songs, Find New Music, and See What
-                  Friends Are Listening to. Listen to Your Favourite Artists,
-                  Songs and Albums for Free. Listen on Several Devices. Listen
-                  Songs with Lyrics.
+                  I have made famouse OTT platform where Im fetching data from
+                  api's and also provided logout and login functionality using
+                  backend.
                 </p>
                 <div>
-                  {/* <SiNodedotjs /> */}
-                  {/* <SiExpress /> */}
-                  {/* <SiMongodb /> */}
-                  <SiHtml5 />
+                  <SiNodedotjs />
+                  <SiExpress />
+                  <SiMongodb />
+                  <SiJavascript />
                   <DiCss3 />
                   <FaReact />
-                  <SiFastapi />
-                  <SiTailwindcss />
                 </div>
                 <div>
                   <a
-                    href="https://netflix-clone-kanksha.netlify.app/"
+                    href="https://netflix-web-kanksha.netlify.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -64,7 +65,7 @@ export const Projects = () => {
                     </span>
                   </a>
                   <a
-                    href="https://github.com/kanksha44/netflix"
+                    href="https://github.com/kanksha44/netflix.git"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -80,20 +81,18 @@ export const Projects = () => {
             <div className="project">
               <div className="project_videocontainer">
                 <div>
-                  <img src="../" alt="NetFlix Clone" />
+                  <img src={kanbanproj} alt="Kanban board" />
                 </div>
               </div>
               <div className="project_information">
-                <h2>Meesho Clone</h2>
+                <h2>Kanban Board</h2>
                 <p>
-                  Meesho is a social commerce platform that undertakes retail
-                  distribution, enabling small retail merchants to connect and
-                  sell their products effectively via social media channels.
+                  Kanban board is ispired by trello task manager, where you can
+                  assigned and note the task with timeline, with drag and drop
+                  withing list to list.
                 </p>
                 <div>
-                  <SiNodedotjs />
-                  {/* <SiExpress /> */}
-                  <SiMongodb />
+                  <SiJavascript />
                   <FaReact />
                   <SiHtml5 />
                   <DiCss3 />
@@ -101,7 +100,7 @@ export const Projects = () => {
                 </div>
                 <div>
                   <a
-                    href="https://meesho-clone-website.netlify.app/"
+                    href="https://kanban-board-project2.netlify.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -110,7 +109,137 @@ export const Projects = () => {
                     </span>
                   </a>
                   <a
-                    href="https://github.com/Abhi-lab2/meesho-cloned"
+                    href="https://github.com/kanksha44/kanban-board-project-2.git"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      View Code
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="projects_container" data-aos="fade-right">
+            <div className="project">
+              <div className="project_videocontainer">
+                <div>
+                  <img src={twitterproj} alt="Twitter Clone" />
+                </div>
+              </div>
+              <div className="project_information">
+                <h2>Twitter Clone</h2>
+                <p>
+                  Made twitter clone with searchbar functionality and fetched
+                  data by database. Login and logout functionality and managing
+                  state with redux.
+                </p>
+                <div>
+                  <FaReact />
+                  <SiJavascript />
+                  <DiCss3 />
+                  <SiMaterialui />
+                  <SiRedux />
+                </div>
+                <div>
+                  <a
+                    href="https://twitter-lite-clone1.netlify.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt onbt">
+                      See this Live
+                    </span>
+                  </a>
+                  <a
+                    href="https://github.com/kanksha44/twitter-clone.git"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      View Code
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="projects_container" data-aos="fade-right">
+            <div className="project">
+              <div className="project_videocontainer">
+                <div>
+                  <img src={googledocproj} alt="Google Docs Clone" />
+                </div>
+              </div>
+              <div className="project_information">
+                <h2>Google Doc Clone</h2>
+                <p>
+                  Made google doc clone with editing functionality, you can
+                  write on page and you can use toolbar to bold the text, etc
+                </p>
+                <div>
+                  <FaReact />
+                  <SiJavascript />
+
+                  <DiCss3 />
+                  <SiMaterialui />
+                </div>
+                <div>
+                  <a
+                    href="https://google-doc-clone-kanksha.netlify.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt onbt">
+                      See this Live
+                    </span>
+                  </a>
+                  <a
+                    href="https://github.com/kanksha44/googledocs.git"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      View Code
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="projects_container" data-aos="fade-right">
+            <div className="project">
+              <div className="project_videocontainer">
+                <div>
+                  <img src={movieproject} alt="Movie app" />
+                </div>
+              </div>
+              <div className="project_information">
+                <h2>Movie Project</h2>
+                <p>
+                  Movie app where you make a movie favaourite and then you can
+                  see the selected movies in favaourite movie option.
+                </p>
+                <div>
+                  <FaReact />
+                  <SiRedux />
+                  <DiCss3 />
+                  <SiJavascript />
+                  <SiMaterialui />
+                </div>
+                <div>
+                  <a
+                    href="https://movie-app-kanksha.netlify.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt onbt">
+                      See this Live
+                    </span>
+                  </a>
+                  <a
+                    href="https://github.com/kanksha44/movie-app-redux-thunk.git"
                     target="_blank"
                     rel="noreferrer"
                   >
