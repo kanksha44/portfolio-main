@@ -10,7 +10,7 @@ export const Type = () => {
         options={{
           strings: [
             "Front-end Developer",
-            "Web Developer",
+            "Full-stack Developer",
             "Travel Enthusiast",
           ],
           autoStart: true,

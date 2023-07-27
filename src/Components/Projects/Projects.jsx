@@ -25,6 +25,7 @@ import kanbanproj from "../../assets/kanbanproj.png";
 import movieproject from "../../assets/movieproject.png";
 import twitterproj from "../../assets/twitterproj.png";
 import googledocproj from "../../assets/googledocproj.png";
+import purrfect from "../../assets/purrfect.png";
 
 export const Projects = () => {
   return (
@@ -240,6 +241,50 @@ export const Projects = () => {
                   </a>
                   <a
                     href="https://github.com/kanksha44/movie-app-redux-thunk.git"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      View Code
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="projects_container" data-aos="fade-right">
+            <div className="project">
+              <div className="project_videocontainer">
+                <div>
+                  <img src={purrfect} alt="petcare" />
+                </div>
+              </div>
+              <div className="project_information">
+                <h2>Responsive Purr-fect</h2>
+                <p>
+                  Innovative and self-created responsive cat care website
+                  featuring add-to-cart functionality, protective routing.
+                </p>
+                <div>
+                  <SiHtml5 />
+                  <DiCss3 />
+                  <SiJavascript />
+                  <SiMongodb />
+                  <SiNodedotjs />
+                  <SiExpress />
+                </div>
+                <div>
+                  <a
+                    href="https://purr-fect-catcare.netlify.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt onbt">
+                      See this Live
+                    </span>
+                  </a>
+                  <a
+                    href="https://github.com/kanksha44/Purr-fect"
                     target="_blank"
                     rel="noreferrer"
                   >
