@@ -11,7 +11,7 @@ export const Type = () => {
           strings: [
             "Front-end Developer",
             "Full-stack Developer",
-            "Travel Enthusiast",
+            "Avid Reader",
           ],
           autoStart: true,
           loop: true,

@@ -6,9 +6,9 @@ import {
   SiHtml5,
   SiMaterialui,
   SiExpress,
-  SiRedis,
+  SiMysql,
   SiTailwindcss,
-  SiNetlify,
+  SiDocker,
 } from "react-icons/si";
 
 import { DiCss3, DiMongodb } from "react-icons/di";
@@ -47,48 +47,34 @@ export const Techstacks = () => {
             <DiMongodb />
             <h5>MongoDb</h5>
           </div>
+          <div>
+            <SiMysql />
+            <h5>MySql</h5>
+          </div>
 
           <div>
             <SiExpress />
             <h5>Express</h5>
           </div>
 
-          {/* <div>
-            <FaAws />
-            <h5>AWS</h5>
-          </div> */}
+          <div>
+            <SiTailwindcss />
+            <h5>Talwind</h5>
+          </div>
           <div>
             <BsBootstrap />
             <h5>Bootstrap</h5>
           </div>
+
           <div>
-            <BsBootstrap />
-            <h5>Material UI</h5>
+            <SiDocker />
+            <h5>Docker</h5>
           </div>
           <div>
-            <BsBootstrap />
-            <h5>Talwind</h5>
+            <SiRedux />
+            <h5>Redux</h5>
           </div>
-          <div>
-            <SiNetlify />
-            <h5>Netlify</h5>
-          </div>
-          <div>
-            <VscGithub />
-            <h5>Github</h5>
-          </div>
-          {/* <div>
-            <BsWordpress />
-            <h5>Wordpress</h5> */}
         </div>
-        {/* <div>
-          <SiHeroku />
-          <h5>Netlify</h5>
-        </div>
-        <div>
-          <VscGithub />
-          <h5>Github</h5>
-        </div> */}
       </div>
     </>
   );

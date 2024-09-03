@@ -32,7 +32,125 @@ export const Timeline = () => {
         </h2>
         <VerticalTimeline lineColor={linecolor}>
           <VerticalTimelineElement
-            date={"Mar 2023 - Present"}
+            date={"June 2024 - Present"}
+            contentStyle={{
+              boxShadow: `var(--shadow)`,
+              border: "3px solid var(--clr-primary)",
+              backgroundColor: `var(--clr-bg)`,
+              textAlign: "center",
+              color: `var(--clr-fg-alt)`,
+            }}
+            contentArrowStyle={{
+              borderRight: "16px solid  var(--clr-primary)",
+            }}
+            iconStyle={{
+              border: ` 3px solid var(--clr-primary)`,
+              backgroundColor: `var(--clr-bg)`,
+              color: `var(--clr-primary)`,
+            }}
+            icon={<WorkIcon />}
+          >
+            <h3
+              className="vertical-timeline-element-title"
+              data-aos="fade-right"
+            >
+              Full Stack developer
+            </h3>
+            <h4
+              className="vertical-timeline-element-subtitle"
+              data-aos="fade-right"
+            >
+              Sherwoods Science
+            </h4>
+            <p data-aos="fade-right">
+              Responsible for Adding new features to the application, enhancing
+              functionality and user experience. Improved & troubleshoot UI by
+              implementing and resolving UI/UX issues. Writing and maintaining
+              API tests using Jest to ensure reliable and accurate
+              functionality.
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            date={"Dec 2023 - Mar 2024"}
+            contentStyle={{
+              boxShadow: `var(--shadow)`,
+              border: "3px solid var(--clr-primary)",
+              backgroundColor: `var(--clr-bg)`,
+              textAlign: "center",
+              color: `var(--clr-fg-alt)`,
+            }}
+            contentArrowStyle={{
+              borderRight: "16px solid  var(--clr-primary)",
+            }}
+            iconStyle={{
+              border: ` 3px solid var(--clr-primary)`,
+              backgroundColor: `var(--clr-bg)`,
+              color: `var(--clr-primary)`,
+            }}
+            icon={<WorkIcon />}
+          >
+            <h3
+              className="vertical-timeline-element-title"
+              data-aos="fade-right"
+            >
+              Junior React developer
+            </h3>
+            <h4
+              className="vertical-timeline-element-subtitle"
+              data-aos="fade-right"
+            >
+              Sunday Tech
+            </h4>
+            <p data-aos="fade-right">
+              Collaborated closely with the development team to modernize an
+              Egyptian banking loan system, utilizing React and Ant Design
+              framework to transition the platform from offline to online,
+              revolutionizing the loan application experience for users.
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            date={"Sep 2023 - Nov 2023"}
+            contentStyle={{
+              boxShadow: `var(--shadow)`,
+              border: "3px solid var(--clr-primary)",
+              backgroundColor: `var(--clr-bg)`,
+              textAlign: "center",
+              color: `var(--clr-fg-alt)`,
+            }}
+            contentArrowStyle={{
+              borderRight: "16px solid  var(--clr-primary)",
+            }}
+            iconStyle={{
+              border: ` 3px solid var(--clr-primary)`,
+              backgroundColor: `var(--clr-bg)`,
+              color: `var(--clr-primary)`,
+            }}
+            icon={<WorkIcon />}
+          >
+            <h3
+              className="vertical-timeline-element-title"
+              data-aos="fade-right"
+            >
+              Full Stack developer
+            </h3>
+            <h4
+              className="vertical-timeline-element-subtitle"
+              data-aos="fade-right"
+            >
+              Team Technologies
+            </h4>
+            <p data-aos="fade-right">
+              Engineered a Learning Management System (LMS) utilizing React and
+              Node.js. Enhanced teacher productivity with interfaces enabling
+              resource uploads, quiz creation, assessment grading, and online
+              meeting hosting. Managing student data and exam results, resulting
+              in a 30% increase in system performance.Empowering educators to
+              upload resources, create quizzes,grade assessments, and conduct
+              online meetings.
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            date={"Mar 2023 - August 2023"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
