@@ -20,8 +20,8 @@ import {
 import { DiCss3 } from "react-icons/di";
 import { VscJson } from "react-icons/vsc";
 import { IoLogoJavascript } from "react-icons/io";
-import netflicproj from "../../assets/netflicproj.png";
 import kanbanproj from "../../assets/kanbanproj.png";
+import reeltime from "../../assets/reeltime.png";
 import movieproject from "../../assets/movieproject.png";
 import twitterproj from "../../assets/twitterproj.png";
 import googledocproj from "../../assets/googledocproj.png";
@@ -37,27 +37,24 @@ export const Projects = () => {
             <div className="project">
               <div className="project_videocontainer">
                 <div>
-                  <img src={netflicproj} alt="Netflix clone" />
+                  <img src={reeltime} alt="Kanban board" />
                 </div>
               </div>
               <div className="project_information">
-                <h2>Inspired by Netflix</h2>
+                <h2>Reeltime</h2>
                 <p>
-                  I have made famouse OTT platform where Im fetching data from
-                  api's and also provided logout and login functionality using
-                  backend.
+                 Reeltime movie
                 </p>
                 <div>
-                  <SiNodedotjs />
-                  <SiExpress />
-                  <SiMongodb />
                   <SiJavascript />
-                  <DiCss3 />
                   <FaReact />
+                  <SiHtml5 />
+                  <DiCss3 />
+                  <SiMaterialui />
                 </div>
                 <div>
                   <a
-                    href="https://netflix-web-kanksha.netlify.app/"
+                    href="https://reeltime.netlify.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -66,7 +63,7 @@ export const Projects = () => {
                     </span>
                   </a>
                   <a
-                    href="https://github.com/kanksha44/netflix.git"
+                    href="https://github.com/kanksha44/kanksha-movie-app-main"
                     target="_blank"
                     rel="noreferrer"
                   >

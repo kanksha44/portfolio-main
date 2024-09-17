@@ -12,7 +12,9 @@
   --clr-fg: #555;
   --clr-fg-alt: #444;
   --clr-primary: #24756c;
+  /* --clr-primary: #ff992c; */
   --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  --github: #000000;
 }
 
 .dark {
@@ -21,8 +23,10 @@
   --clr-fg: #fff;
   --clr-fg-alt: #fff;
   --clr-primary: #80CBC4;
+  /* --clr-primary: #e68a29; */
   --shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    --github: #f8f3f3;
 }
 
 main {

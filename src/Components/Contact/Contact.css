@@ -47,7 +47,7 @@
   color: #0a66c2;
 }
 .github:hover {
-  color: black;
+  color: var(--github)
 }
 .email:hover {
   color: #d93025;
@@ -56,7 +56,7 @@
   color: rgb(29, 155, 240);
 }
 .phone:hover {
-  color: rgb(0, 0, 0);
+  color: var(--github)
 }
 
 .mailNumber{
