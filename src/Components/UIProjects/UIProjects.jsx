@@ -257,8 +257,7 @@ export const UIProjects = () => {
               <div className="project_information">
                 <h2>Canopy</h2>
                 <p>
-                  Innovative and self-created responsive cat care website
-                  featuring add-to-cart functionality, protective routing.
+                  Ecom
                 </p>
                 <div>
                   <SiHtml5 />
@@ -301,8 +300,7 @@ export const UIProjects = () => {
               <div className="project_information">
                 <h2>Rest-o-rant</h2>
                 <p>
-                  Innovative and self-created responsive cat care website
-                  featuring add-to-cart functionality, protective routing.
+                  Restaurant page.
                 </p>
                 <div>
                   <SiHtml5 />

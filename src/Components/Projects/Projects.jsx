@@ -16,6 +16,7 @@ import {
   SiNodedotjs,
   SiFastapi,
   SiRedux,
+  SiBootstrap
 } from "react-icons/si";
 import { DiCss3 } from "react-icons/di";
 import { VscJson } from "react-icons/vsc";
@@ -43,14 +44,11 @@ export const Projects = () => {
               <div className="project_information">
                 <h2>Reeltime</h2>
                 <p>
-                 Reeltime movie
+                An movie app, fetching data from the TMDb API to provide users with seamless browsing of movie details, reviews, and search feature.
                 </p>
                 <div>
-                  <SiJavascript />
                   <FaReact />
-                  <SiHtml5 />
-                  <DiCss3 />
-                  <SiMaterialui />
+                  <SiRedux />
                 </div>
                 <div>
                   <a
@@ -90,10 +88,7 @@ export const Projects = () => {
                   withing list to list.
                 </p>
                 <div>
-                  <SiJavascript />
                   <FaReact />
-                  <SiHtml5 />
-                  <DiCss3 />
                   <SiMaterialui />
                 </div>
                 <div>
@@ -135,8 +130,6 @@ export const Projects = () => {
                 </p>
                 <div>
                   <FaReact />
-                  <SiJavascript />
-                  <DiCss3 />
                   <SiMaterialui />
                   <SiRedux />
                 </div>
@@ -178,9 +171,6 @@ export const Projects = () => {
                 </p>
                 <div>
                   <FaReact />
-                  <SiJavascript />
-
-                  <DiCss3 />
                   <SiMaterialui />
                 </div>
                 <div>
@@ -222,9 +212,6 @@ export const Projects = () => {
                 <div>
                   <FaReact />
                   <SiRedux />
-                  <DiCss3 />
-                  <SiJavascript />
-                  <SiMaterialui />
                 </div>
                 <div>
                   <a
@@ -257,18 +244,19 @@ export const Projects = () => {
                 </div>
               </div>
               <div className="project_information">
-                <h2>Responsive Purr-fect</h2>
+                <h2>Purr-fect</h2>
                 <p>
-                  Innovative and self-created responsive cat care website
+                  Innovative responsive cat care website
                   featuring add-to-cart functionality, protective routing.
                 </p>
-                <div>
+                <div className="project-div">
                   <SiHtml5 />
                   <DiCss3 />
                   <SiJavascript />
                   <SiMongodb />
                   <SiNodedotjs />
                   <SiExpress />
+                  <SiBootstrap />
                 </div>
                 <div>
                   <a

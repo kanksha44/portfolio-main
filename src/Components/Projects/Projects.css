@@ -31,7 +31,7 @@
 
 .project_videocontainer > div {
   width: 90%;
-  height: 500px;
+  height: 180px;
   border-radius: 20px;
 }
 .project_videocontainer > div > img {
@@ -51,7 +51,7 @@
   overflow-y: scroll;
   overflow-x: hidden;
   margin-bottom: 10px;
-  height: 400px !important;
+  height: 350px ;
 }
 .project_information > h2 {
   margin-top: 1em;
@@ -60,19 +60,21 @@
 .project_information > p {
   margin-top: 1em;
   text-align: center;
-  height: 70px;
+  height: 100px;
 }
 .project_information > div:nth-child(3) {
   margin-top: 0.5em;
   display: flex;
   justify-content: space-evenly;
 }
-
+.project_information .project-div{
+  height: 60px;
+}
 .project_information > div:nth-child(3) > svg {
   font-size: 3em;
   margin: 2% 3% 2% 3%;
   color: var(--clr-primary);
-  transition: all 0.2s ease-in-out;
+  transition: all 0.1s ease-in-out;
 }
 
 .project_information > div:nth-child(3) > svg:hover {
